@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - CricketGear Pro</title>
+    
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        .font-poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+        .font-inter {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="font-inter bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-md fixed w-full z-50">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <a href="index.html" class="text-2xl font-poppins font-bold text-blue-900">
+                        <i class="fas fa-cricket-bat-ball mr-2"></i>CricketGear Pro
+                    </a>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-blue-700">Home</a>
+                    <a href="products.html" class="text-blue-900 font-semibold hover:text-blue-700">Products</a>
+                    <a href="about.html" class="text-gray-600 hover:text-blue-700">About</a>
+                    <a href="contact.html" class="text-gray-600 hover:text-blue-700">Contact</a>
+                    <a href="cart.html" class="text-gray-600 hover:text-blue-700">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="ml-1">Cart</span>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button class="text-gray-600 hover:text-blue-700">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Products Section -->
+    <section class="pt-20 pb-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-poppins font-bold text-center mb-12">Our Products</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Product 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                    <img src="https://images.pexels.com/photos/3571569/pexels-photo-3571569.jpeg" alt="Premium Cricket Bat" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-poppins font-semibold text-xl mb-2">Premium Cricket Bat</h3>
+                        <p class="text-gray-600 mb-4">Professional grade willow bat for maximum performance</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-2xl font-bold text-blue-900">$299.99</span>
+                            <button class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                    <img src="https://images.pexels.com/photos/3571568/pexels-photo-3571568.jpeg" alt="Team Jersey" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-poppins font-semibold text-xl mb-2">Team Jersey</h3>
+                        <p class="text-gray-600 mb-4">Official team jersey with moisture-wicking fabric</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-2xl font-bold text-blue-900">$79.99</span>
+                            <button class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                    <img src="https://images.pexels.com/photos/3571567/pexels-photo-3571567.jpeg" alt="Cricket Helmet" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-poppins font-semibold text-xl mb-2">Cricket Helmet</h3>
+                        <p class="text-gray-600 mb-4">Premium protection with advanced ventilation</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-2xl font-bold text-blue-900">$149.99</span>
+                            <button class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                    <img src="https://images.pexels.com/photos/3657154/pexels-photo-3657154.jpeg" alt="Cricket Pads" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-poppins font-semibold text-xl mb-2">Cricket Pads</h3>
+                        <p class="text-gray-600 mb-4">Lightweight and durable pads for maximum protection</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-2xl font-bold text-blue-900">$99.99</span>
+                            <button class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                    <img src="https://images.pexels.com/photos/3657155/pexels-photo-3657155.jpeg" alt="Cricket Gloves" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-poppins font-semibold text-xl mb-2">Cricket Gloves</h3>
+                        <p class="text-gray-600 mb-4">Comfortable gloves for better grip and protection</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-2xl font-bold text-blue-900">$49.99</span>
+                            <button class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                    <img src="https://images.pexels.com/photos/3657156/pexels-photo-3657156.jpeg" alt="Cricket Shoes" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-poppins font-semibold text-xl mb-2">Cricket Shoes</h3>
+                        <p class="text-gray-600 mb-4">Lightweight shoes designed for optimal performance</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-2xl font-bold text-blue-900">$89.99</span>
+                            <button class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="font-poppins font-bold text-xl mb-4">CricketGear Pro</h3>
+                    <p class="text-gray-400">Your one-stop shop for premium cricket equipment and accessories.</p>
+                </div>
+                <div>
+                    <h4 class="font-poppins font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="products.html" class="text-blue-900 font-semibold hover:text-white">Products</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-poppins font-semibold mb-4">Contact Info</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><i class="fas fa-phone mr-2"></i> +1 234 567 890</li>
+                        <li><i class="fas fa-envelope mr-2"></i> info@cricketgearpro.com</li>
+                        <li><i class="fas fa-map-marker-alt mr-2"></i> 123 Cricket Street, Sports City</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-poppins font-semibold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 CricketGear Pro. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
