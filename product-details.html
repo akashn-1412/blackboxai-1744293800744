@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - CricketGear Pro</title>
+    
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        .font-poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+        .font-inter {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="font-inter bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-md fixed w-full z-50">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <a href="index.html" class="text-2xl font-poppins font-bold text-blue-900">
+                        <i class="fas fa-cricket-bat-ball mr-2"></i>CricketGear Pro
+                    </a>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-blue-700">Home</a>
+                    <a href="products.html" class="text-gray-600 hover:text-blue-700">Products</a>
+                    <a href="about.html" class="text-gray-600 hover:text-blue-700">About</a>
+                    <a href="contact.html" class="text-gray-600 hover:text-blue-700">Contact</a>
+                    <a href="cart.html" class="text-gray-600 hover:text-blue-700">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="ml-1">Cart</span>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button class="text-gray-600 hover:text-blue-700">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Product Detail Section -->
+    <section class="pt-20 pb-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <img src="https://images.pexels.com/photos/3571569/pexels-photo-3571569.jpeg" alt="Premium Cricket Bat" class="w-full h-96 object-cover rounded-lg shadow-md">
+                </div>
+                <div>
+                    <h2 class="font-poppins text-3xl font-bold mb-4">Premium Cricket Bat</h2>
+                    <p class="text-gray-600 mb-4">Professional grade willow bat for maximum performance. Designed for players who demand the best.</p>
+                    <span class="text-2xl font-bold text-blue-900 mb-4">$299.99</span>
+                    <div class="flex items-center mb-4">
+                        <label for="quantity" class="mr-4">Quantity:</label>
+                        <input type="number" id="quantity" name="quantity" min="1" value="1" class="border border-gray-300 rounded px-4 py-2 w-20">
+                    </div>
+                    <button class="bg-blue-700 text-white px-6 py-3 rounded hover:bg-blue-800 transition duration-300">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <div class="mt-12">
+                <h3 class="font-poppins text-2xl font-bold mb-4">Product Details</h3>
+                <p class="text-gray-600">This premium cricket bat is crafted from the finest willow, ensuring durability and performance. It features a comfortable grip and a lightweight design, making it perfect for players of all levels.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="font-poppins font-bold text-xl mb-4">CricketGear Pro</h3>
+                    <p class="text-gray-400">Your one-stop shop for premium cricket equipment and accessories.</p>
+                </div>
+                <div>
+                    <h4 class="font-poppins font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="products.html" class="text-gray-400 hover:text-white">Products</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-poppins font-semibold mb-4">Contact Info</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><i class="fas fa-phone mr-2"></i> +1 234 567 890</li>
+                        <li><i class="fas fa-envelope mr-2"></i> info@cricketgearpro.com</li>
+                        <li><i class="fas fa-map-marker-alt mr-2"></i> 123 Cricket Street, Sports City</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-poppins font-semibold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 CricketGear Pro. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
