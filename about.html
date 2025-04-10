@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - CricketGear Pro</title>
+    
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        .font-poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+        .font-inter {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="font-inter bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-md fixed w-full z-50">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <a href="index.html" class="text-2xl font-poppins font-bold text-blue-900">
+                        <i class="fas fa-cricket-bat-ball mr-2"></i>CricketGear Pro
+                    </a>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-blue-700">Home</a>
+                    <a href="products.html" class="text-gray-600 hover:text-blue-700">Products</a>
+                    <a href="about.html" class="text-blue-900 font-semibold hover:text-blue-700">About</a>
+                    <a href="contact.html" class="text-gray-600 hover:text-blue-700">Contact</a>
+                    <a href="cart.html" class="text-gray-600 hover:text-blue-700">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="ml-1">Cart</span>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button class="text-gray-600 hover:text-blue-700">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-20 bg-blue-900 text-white">
+        <div class="container mx-auto px-4 py-16">
+            <div class="max-w-3xl mx-auto text-center">
+                <h1 class="text-4xl md:text-5xl font-poppins font-bold mb-6">About CricketGear Pro</h1>
+                <p class="text-xl text-gray-300">Your trusted partner in cricket equipment since 2010</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-poppins font-bold mb-6">Our Story</h2>
+                    <p class="text-gray-600 mb-4">
+                        Founded in 2010, CricketGear Pro has been serving cricket enthusiasts with premium quality equipment and exceptional service. Our journey began with a simple mission: to provide players with the best cricket gear that enhances their performance on the field.
+                    </p>
+                    <p class="text-gray-600">
+                        Over the years, we've grown from a small local shop to a trusted name in cricket equipment retail, serving customers nationwide. Our commitment to quality and customer satisfaction remains unchanged, as we continue to bring you the finest cricket gear from renowned brands.
+                    </p>
+                </div>
+                <div>
+                    <img src="https://images.pexels.com/photos/3657154/pexels-photo-3657154.jpeg" alt="Cricket Store" class="rounded-lg shadow-xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Values Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-poppins font-bold text-center mb-12">Our Values</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-blue-700 text-4xl mb-4">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3 class="text-xl font-poppins font-semibold mb-4">Quality</h3>
+                    <p class="text-gray-600">
+                        We source only the highest quality cricket equipment from trusted manufacturers to ensure our customers get the best performance gear.
+                    </p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-blue-700 text-4xl mb-4">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3 class="text-xl font-poppins font-semibold mb-4">Trust</h3>
+                    <p class="text-gray-600">
+                        Building long-lasting relationships with our customers through honest advice and reliable service is at the core of our business.
+                    </p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-blue-700 text-4xl mb-4">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3 class="text-xl font-poppins font-semibold mb-4">Passion</h3>
+                    <p class="text-gray-600">
+                        Our team shares a deep passion for cricket, ensuring you get expert advice and the best equipment for your needs.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-poppins font-bold text-center mb-12">Our Team</h2>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg" alt="Team Member" class="w-48 h-48 rounded-full mx-auto mb-4 object-cover">
+                    <h3 class="font-poppins font-semibold">John Smith</h3>
+                    <p class="text-gray-600">Founder & CEO</p>
+                </div>
+                <div class="text-center">
+                    <img src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg" alt="Team Member" class="w-48 h-48 rounded-full mx-auto mb-4 object-cover">
+                    <h3 class="font-poppins font-semibold">Sarah Johnson</h3>
+                    <p class="text-gray-600">Product Manager</p>
+                </div>
+                <div class="text-center">
+                    <img src="https://images.pexels.com/photos/2379006/pexels-photo-2379006.jpeg" alt="Team Member" class="w-48 h-48 rounded-full mx-auto mb-4 object-cover">
+                    <h3 class="font-poppins font-semibold">Mike Wilson</h3>
+                    <p class="text-gray-600">Sales Director</p>
+                </div>
+                <div class="text-center">
+                    <img src="https://images.pexels.com/photos/2379007/pexels-photo-2379007.jpeg" alt="Team Member" class="w-48 h-48 rounded-full mx-auto mb-4 object-cover">
+                    <h3 class="font-poppins font-semibold">Emily Brown</h3>
+                    <p class="text-gray-600">Customer Service</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-poppins font-bold text-center mb-12">What Our Customers Say</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-4">
+                        "Excellent quality products and outstanding customer service. I've been shopping here for years!"
+                    </p>
+                    <p class="font-semibold">- David P.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-4">
+                        "The best cricket equipment store I've found. Great selection and competitive prices!"
+                    </p>
+                    <p class="font-semibold">- Sarah M.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-4">
+                        "Professional staff who really know their cricket. Always helpful and friendly!"
+                    </p>
+                    <p class="font-semibold">- James R.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="font-poppins font-bold text-xl mb-4">CricketGear Pro</h3>
+                    <p class="text-gray-400">Your one-stop shop for premium cricket equipment and accessories.</p>
+                </div>
+                <div>
+                    <h4 class="font-poppins font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="products.html" class="text-gray-400 hover:text-white">Products</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-poppins font-semibold mb-4">Contact Info</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><i class="fas fa-phone mr-2"></i> +1 234 567 890</li>
+                        <li><i class="fas fa-envelope mr-2"></i> info@cricketgearpro.com</li>
+                        <li><i class="fas fa-map-marker-alt mr-2"></i> 123 Cricket Street, Sports City</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-poppins font-semibold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 CricketGear Pro. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
